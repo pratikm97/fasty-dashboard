@@ -80,11 +80,11 @@ var myChart = new Chart(ctx, {
   },
     tooltips: {
        mode: 'point',
-      cornerRadius: 0,
+      cornerRadius: 1,
       caretSize: 8,
       xPadding: 20,
       yPadding: 20,
-      backgroundColor: '#ffffff',
+      backgroundColor: '#000000',
       titleFontStyle: 'normal',
       titleMarginBottom: 10,
       titleSpacing:10,

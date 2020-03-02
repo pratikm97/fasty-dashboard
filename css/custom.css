@@ -56,6 +56,7 @@ li.helo {
 }
 
 h3.crd-tile {font-family:akkurat-regular;font-size: 22px;color: #58595b;margin:0px;padding:35px 0px  5px 30px; }
+
 .see-btn { text-align: center; }
 a.see-ll {
     font-family: akkurat-regular;
@@ -209,6 +210,10 @@ span.addBtn {
     font-size: 31px;
     vertical-align: middle;
     cursor: pointer;
+    float: right;
+    display: inline-block;
+    margin-right: 22px;
+    margin-top: 25px;
 }
 
 span.addBtn:hover, span.addBtn:focus {
@@ -351,20 +356,182 @@ ul.social {
 @media (max-width:1060px) {
   div.container {
     width: 1020px;padding-left: 13px;}
+    h3.crd-tile , .bg-card input {font-size:18px;}
+
 }
 
 
 
 @media (max-width:1024px) {
+	.ble-bx p {
+    width: 78%;
+}
  div.container {
     width: 873px;
 }
  .prg {
     width: 85%;}
+
+
+.tabwrp {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin: 50px 0px;
 }
-.tos li {margin:5px 15px;}
-.bg-card input {margin:30px 15px 30px}
-h3.crd-tile{padding: 35px 0px 5px 15px;}
+.tabwrp table {
+    width: 1100px;
+    margin: 0px;
+        
+}
+span.addBtn{font-size:22px;margin-right: 25px;
+    margin-top: 31px; }
+    .rght h6 {font-size:14px;}
+    .social li {
+    padding: 0px;}
 }
 
- 
+@media (max-width:875px) {
+	div.container {
+    width: 800px;
+}
+}
+@media (max-width:800px) {
+	div.container {
+    width: 769px;
+}
+.rght.col {
+    padding-left: 0px;}
+    .close {font-size:16px;}
+}
+@media (max-width: 767px) {
+div.container {
+    width: 600px;}
+    .bg-card , .rectwrp {
+    margin-bottom: 50px;}
+    .tabwrp {
+    margin: 0px 0px 50px;}
+    .two-bx {
+    margin-bottom: 0px;}
+    ul.Quk-lnk li {
+    padding: 0px 7px;}
+    span.progress-number-mark {
+    right: -4%!important;}
+}
+
+@media (max-width: 480px) {
+	div.container {
+    width: 411px;}
+    .ft-col {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;}
+    ul.social {text-align:center;}
+    .btnn a {padding: 5px 21px;margin-top: 10px;}
+    .okgt h5 {font-size:14px;}
+}
+@media (max-width: 411px) {
+	div.container {
+    width: 390px;}
+    .btnn a {
+    padding: 5px 15px;margin-top:15px;}
+
+}
+@media (max-width: 389px) { 
+	div.container {
+    width: 360px;} 
+}
+@media (max-width: 359px) { 
+	div.container {
+    width: 330px;}  
+    .btnn a {font-size:10px; padding: 5px 12px;}
+
+
+}
+@media (max-width: 329px) {
+	div.container {
+    width: 319px;} 
+
+}  
+.bg-card input {margin:30px 15px 30px}
+h3.crd-tile{padding: 35px 0px 5px 15px;}
+.tos li {margin:5px 15px;}
+
+
+@media (max-width: 1020px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		text-align:center;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+	a.navbar-brand {
+    margin-top: 0px;padding: 12px 15px;}
+ 		.navbar-default .navbar-toggle {
+    border-color: #3054b6;}
+    .navbar-toggle{background-color: #2158b2;}
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-collapse {padding:0px}
+.left-nav {
+    margin-left: 0px }
+    li.trns {
+    display: inline-block;
+}
+.navbar-nav>li {
+    display: inline-block;
+}
+li.dropdown {border:none;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #2158b2;}
+ul.nav.navbar-nav.navbar-right {
+    margin-bottom: 20px;
+}
+.navbar-nav {
+     margin: 0px;
+} 
+}
+
+@media (max-width: 480px) {
+	.navbar-nav {text-align:left}
+	.navbar-nav>li {
+    display: block;}
+    .left-nav.navbar-nav > li > a {padding:9px 15px;}
+    li.trns a {border-radius:0px!important;
+    display: inline-block;}
+    ul.nav.navbar-right.navbar-nav>li {
+    display: inline-block;}
+    li.trns {display:block!important;margin-left:17px}
+    li.helo {
+    margin-left: 17px;}
+    ul.nav.navbar-nav.left-nav {
+    margin-top: 15px;}
+}
